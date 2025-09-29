@@ -8,8 +8,8 @@ def is_prime(i):
     if i == 1:
         return False
     for j in range(2, int(math.isqrt(i)) + 1):
-            if i % j == 0:
-                return False
+        if i % j == 0:
+            return False
     return True
 
 
@@ -31,8 +31,7 @@ the_most_count = -1
 the_most_owner = None
 for n in numbers:
     prime_count = prime_divisors_count(n)
-    if prime_count > the_most_count or (prime_count == the_most_count and \
-                                    n > the_most_owner ):
+    if prime_count > the_most_count or (prime_count == the_most_count and n > the_most_owner):
         the_most_count = prime_count
         the_most_owner = n
     
