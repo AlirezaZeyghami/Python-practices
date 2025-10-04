@@ -1,0 +1,2 @@
+# Current age:
+Write a program that uses the datetime library class in Python to calculate a person's age. If the input date is invalid, print the word "WRONG" in the output. The date format is yyyy/mm/dd. (For example, if 15 is entered for the month, since there are only 12 months, the output should print "WRONG". The same applies to the number of days, with a maximum of 31.)
