@@ -1,6 +1,6 @@
 import mysql.connector
 
-p1_db = mysql.connector.connect(user='********', password='********', host='localhost', database='employee_information')
+p1_db = mysql.connector.connect(user='root', password='', host='localhost', database='employee_information')
 cursor = p1_db.cursor()
 
 queri = "SELECT name, height, weight FROM employees"
